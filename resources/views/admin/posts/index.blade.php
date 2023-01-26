@@ -18,12 +18,12 @@
                         <td>{{ $post->slug }}</td>
                         <td>{{ $post->title }}</td>
 
-                        {{-- <td>
+                         <td>
                             <a href="{{ route('admin.posts.show', ['post' => $post]) }}" class="btn btn-primary">Visita</a>
-                        </td> --}}
-                        {{-- <td>
+                        </td>
+                        <td>
                             <a href="{{ route('admin.posts.edit', ['post' => $post]) }}" class="btn btn-warning">Edita</a>
-                        </td> --}}
+                        </td>
                         <td>
                             <button class="btn btn-danger btn-delete-me" data-id="{{ $post->id }}">Elimina</button>
                         </td>
